@@ -1,1 +1,19 @@
-https://cdn.discordapp.com/attachments/924876990299914241/963739821908578355/cyberpunk2.bat
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /ve /d "Cyberpunk2077" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v AppStarting /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\wait.ani" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v Arrow /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\arrow.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v Crosshair /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\cross.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v Hand /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\link.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v Help /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\help.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v IBeam /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\beam.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v No /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\no.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v NWPen /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\pen.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v Person /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\person.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v Pin /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\pin.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v precisionhair /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\move.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v SizeAll /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\size1.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v SizeNESW /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\size4.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v SizeNS /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\size4.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v SizeNWSE /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\size2.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v SizeWE /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\size3.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v UpArrow /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\up.cur" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v Wait /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\busy.ani" /f
