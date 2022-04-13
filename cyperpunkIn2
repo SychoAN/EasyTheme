@@ -17,4 +17,4 @@ reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v SizeNWSE /t REG_EXPAND_SZ /
 reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v SizeWE /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\size3.cur" /f
 reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v UpArrow /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\up.cur" /f
 reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v Wait /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\Cyberpunk\busy.ani" /f
-reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v Scheme Source /t REG_DWORD /d "1" /f
+reg add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "Scheme Source" /t REG_DWORD /d "1" /f
